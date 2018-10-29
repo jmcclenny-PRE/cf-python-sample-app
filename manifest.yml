@@ -1,0 +1,10 @@
+---
+applications:
+- name: hello-world
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: false
+  buildpack: python_buildpack
+  command: python app.py
+  services:
+    - sample-mysqlv2

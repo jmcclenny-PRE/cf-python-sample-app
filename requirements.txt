@@ -1,0 +1,7 @@
+# pip download -r ../requirements.txt --no-binary :all:
+Flask>=0.12
+pymysql
+flask-wtf
+flask-sqlalchemy
+flask-marshmallow
+marshmallow-sqlalchemy
